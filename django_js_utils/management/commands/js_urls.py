@@ -16,7 +16,7 @@ import re
 RE_KWARG = re.compile(r"(\(\?P\<(.*?)\>.*?\))") #Pattern for recongnizing named parameters in urls
 RE_ARG = re.compile(r"(\(.*?\))") #Pattern for recognizing unnamed url parameters
     
-# If you access your app with some prefix; blank otherwise
+# If you access your app with some prefix (for example, when using ReverseProxy); blank otherwise
 _PREFIX_ = '/app_name/'
 
 
